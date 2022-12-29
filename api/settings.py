@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-wsi-8s_(i%zzq$l*mo&l3txmf0_7(qjzwi!nq5c^d+^6fe(dsf
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['.vercel.app']
 
 
 # Application definition
@@ -125,4 +125,5 @@ CORS_ALLOWED_ORIGINS = ["https://example.com",
     "https://sub.example.com",
     "http://localhost:3000",
     "http://127.0.0.1:9000",
+    "https://hasibmania.web.app",
 ]
